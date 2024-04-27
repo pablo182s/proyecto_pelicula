@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+header {
+    background-color: rgb(126, 27, 27);
+    color: white;
+    font-size: 20px;
+    
+    
+
+}
+
+h1
+{
+    color: white;
+    padding: 150px;
+    font-size: 50px;
+    
+}
+.subtitulo {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 50px;
+    
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.ul-inline li 
+        {
+        display: inline;
+        color: black;
+        padding-right: 10px;
+        padding-top: 10px;
+        float: right;
+        }
+
+.navcabecera
+    {
+    margin-top: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1em;
+    }
+
+
+.seccion-principal {
+        background-image: url(img/background.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        text-align: center;  
+           
+}
+
+.btn-registrarse {
+    background-color: rgb(126, 27, 27);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+/* seccionbuscar*/
+.buscar { 
+    color: #ffffff;
+    font-size: 1.3em;
+    padding-top: 100px;
+    padding-bottom:100px; 
+    text-align: center; 
+    background-color: black;        
+}
+
+input[type=text] {
+    padding: 10px;
+    border: 2px solid rgba(8, 8, 0, 0.25);
+    border-radius: 5px;
+           }
+     
+ 
+ 
+ input[type=button], input[type=submit], input[type=reset] {
+    height: 40px;
+    background-color: rgb(126, 27, 27);
+   border: none;
+   color: white;
+   padding: 3px 25px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 5px;
+ }
+
+a {
+    color: white;
+}
+
+/*seccion tendencias*/
+.tendencias { 
+    color: white;
+    font-size: 1.3em;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom:60px; 
+    text-align: center; 
+    background-color: #0f0e0d;   
+       
+}   
+
+.img {
+        border-radius: 30px;
+        width: 20%;
+        padding: 10px;
+        opacity: 1;
+        transition: 0.8s;
+
+}       
+    
+.img:hover
+    {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+
+
+.btn-tendencias 
+    {
+        padding-top: 30px;
+    }
+
+.btn-ten {
+    background-color: rgb(126, 27, 27);
+    display: inline-block;
+    width: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+/*seccion aclamadas*/
+
+.aclamadas {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom:30px; 
+    color: white;
+    text-align: center; 
+    background-color: #a04632;
+}
+
+
+
+/*section{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}*/
+
+.li-footer 
+    {
+    text-align: center;
+    }
+
+
+.li-footer li 
+    {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 40px;
+    }
+
+    .li-footer li a
+    {
+    color: #f1f1f1;
+    text-decoration: none;
+    }
+
+    .li-footer li a:hover
+    {
+    color: #f58c8c;
+    
+    }
+
+footer{
+    background-color: rgb(126, 27, 27);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    display: inline;
+}
